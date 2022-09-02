@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lora', serif;
+
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgb(0,0,0,0.5)), url(11.jpeg);
+	width: 100%;
+	height: 100vh;
+	background-position:center;
+	background-size: cover;
+	
+
+}
+ul{
+	list-style: none;
+	float: right ;
+	margin-top: 20px;
+	margin-right: 20px;
+
+
+}
+ul{
+	display: inline-block;
+	font-weight: bolder;
+	
+}
+a{
+	text-decoration-style: none;
+	color: black;
+	padding: 5px 20px;
+	border: 1.5px dashed black;
+	border-radius: 10px;
+	transition: 0.5s ease;
+	
+
+
+
+
+}
+ul a:hover{
+		background-color: orange;
+	    color: #fff;
+
+	}
+
+ul a:visited{
+	background-color:yellow;
+	color: pink;
+
+}
+ul a:link{
+	background-color: ;
+	color: black;
+
+
+}
+
+
+ul a:active{
+	background-color: red;
+	color: #fff;
+}
+.logo img{
+	width: 100px;
+	height: auto;
+	float: left;
+	/*top: 35%;
+	left: 50%;*/
+	transform: translate(40%,15%);
+
+	}
+
+	.main{
+		max-width: auto;
+		margin: 10px;
+	}
+.title{
+	position: absolute;
+	top: 43%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.title h1{
+	color:#fff;
+	font-size: 42px;
+	font-weight: bolder;
+	text-shadow: 2px 2px yellow;
+}
+.title h2{
+	color: gold;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 3%;
+	text-shadow: 1px 1px pink;
+
+}
+
+
+.line{
+border: 2px dotted pink;
+}
+.line2{
+	border:2px dotted red;
+	width: 35%;
+margin-left: 32%;
+	
+}
+
+.botton{
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-decoration-style: none;
+	color: black;
+	padding: 10px 12px;
+	font-weight: bolder;
+	border-radius: 10px;
+	transition: 0.6s ease;
+
+}
+
+.botton a:hover{
+				background-color: green;
+				color: black;
+
+	}
+.botton a:visited{
+	background-color: orange;
+	color: pink;
+
+}
+.botton a:link{
+/*	background-color: pink;
+*/	color: yellow;
+
+
+}
+
+
+.botton a:active{
+	background-color: red;
+	color: #fff;
